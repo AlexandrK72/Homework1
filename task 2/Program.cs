@@ -4,3 +4,21 @@
 // a = -9 b = -3 -> max = -3
 
 
+
+int number1, number2;
+
+Console.WriteLine("Введите первое число");
+number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+number2 = Convert.ToInt32(Console.ReadLine());
+
+if (number1 > number2)
+{     
+    Console.WriteLine($" max = {number1}, min = {number2}");
+
+}
+else
+{
+     Console.WriteLine($" max = {number2}, min = {number1}");
+
+}
